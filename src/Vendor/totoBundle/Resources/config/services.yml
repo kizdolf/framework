@@ -1,0 +1,7 @@
+parameters:
+#    toto.example.class: Vendor\totoBundle\Example
+
+services:
+#    toto.example:
+#        class: %toto.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

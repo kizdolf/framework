@@ -1,0 +1,4 @@
+jburetweb:
+    resource: "@jburetwebBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,14 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: local.42.fr
+    database_port: null
+    database_name: symfony
+    database_user: root
+    database_password: public6542ENEMY
+    mailer_transport: gmail
+    mailer_host: 
+    mailer_user: jules.buret@gmail.com
+    mailer_password: public65googleENEMY
+    locale: en
+    secret: 137552b3a4808a1df8d99ab2795950cb
+    database_path: null

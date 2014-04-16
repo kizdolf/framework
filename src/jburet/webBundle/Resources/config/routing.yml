@@ -1,0 +1,19 @@
+jburetweb_accueil:
+    path:   /web
+    defaults:   { _controller: jburetwebBundle:web:index}
+
+jburetweb_login:
+    path:   /login
+    defaults:   { _controller: jburetwebBundle:web:login}
+
+jburetweb_admin:
+    path:   /admin
+    defaults:   { _controller: jburetwebBundle:web:admin}
+
+jburetweb_contact:
+    path:   /contact
+    defaults:   { _controller: jburetwebBundle:web:contact}
+
+jburetweb_navig:
+    path:   /nav/{id}
+    defaults:   { _controller: jburetwebBundle:web:nav}
