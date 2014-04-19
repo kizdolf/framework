@@ -1,0 +1,11 @@
+smia_work_homepage:
+    pattern:  /
+    defaults: { _controller: SmiaWorkBundle:Web:index }
+
+smia_work_login:
+    pattern:     /login
+    defaults:   { _controller: SmiaWorkBundle:Web:login }
+
+smia_work_contact:
+    pattern:    /contact
+    defaults:   { _controller: SmiaWorkBundle:Web:contact }

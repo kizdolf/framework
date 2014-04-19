@@ -1,0 +1,17 @@
+{% block menu %}
+<div id="menu" class="span6">
+	<ul class="nav nav-pills nav-stacked span6">	
+		{% for article in liste %}
+			<li><a href="#">{{article}}</a></li>
+		{% endfor%}
+	</ul>
+	<div class="container ">
+		<div class="well span6">
+			<form method="post" {{ form_enctype(form) }}>
+				{{ form_widget(form) }}
+				<input type="submit" class="btn btn-primary" />
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}

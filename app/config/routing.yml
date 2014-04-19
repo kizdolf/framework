@@ -1,0 +1,4 @@
+smia_work:
+    resource: "@SmiaWorkBundle/Resources/config/routing.yml"
+    prefix:   /
+

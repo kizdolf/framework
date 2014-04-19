@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.css') }}" type="text/css" />
+	<title>{% block title %} Web0.1 {% endblock %}</title>
+</head>
+<body id="container" class="span12">
+	{% block menu %}
+		{# MENU #}
+		{{ render(controller("SmiaWorkBundle:Web:login")) }}
+	{% endblock %}
+	<div id="content" class="span9">
+		{% block body %}
+			{# BODY #}
+			empty body
+		{% endblock %}
+	</div>
+  {% block javascripts %}
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="{{ asset('bootstrap/js/bootstrap.js') }}"></script>
+  {% endblock %}
+</body>
+</html>

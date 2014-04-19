@@ -1,0 +1,7 @@
+parameters:
+#    smia_work.example.class: Smia\WorkBundle\Example
+
+services:
+    smia_work.login:
+        class: Smia\WorkBundle\Login\SmiaLogin
+#        arguments: [@service_id, "plain_value", %parameter%]

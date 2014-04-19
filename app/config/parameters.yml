@@ -1,0 +1,15 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: local.42.fr
+    database_port: null
+    database_name: dk_web1
+    database_user: root
+    database_password: public6542ENEMY
+    mailer_transport: smtp
+    mailer_host: smtp.42.fr
+    mailer_user: jburet
+    mailer_password: public6542ENEMY
+    locale: en
+    secret: MiManchiSmiaTiBacioMolto
+    app_webmaster: jburet@student.42.fr
